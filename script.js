@@ -30,6 +30,8 @@ document.addEventListener('DOMContentLoaded', function() {
 
 // Select DOM Elements:
 
+<button id="add-task">Add Task</button>
+
 const addButton = document.getElementById('add-task'); // Select the "Add Task" button
 const taskInput = document.getElementById('task-input'); // Select the input field for tasks
 const taskList = document.getElementById('task-list'); // Select the unordered list for displaying tasks
